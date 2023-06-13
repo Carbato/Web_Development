@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    color: aliceblue;
+    background-color:darkred;
+}
+.hidden {
+    display: none;
+}
+
+.navbar-brand {
+    transition: all 0.5s;
+}
+
+.navbar-brand:hover {
+    color: brown;
+    transform:scale(1.3);
+}
+
+.bi-trash-fill:hover {
+    color: brown;
+}
+
+
+.bi-pencil-fill:hover {
+    color: sandybrown;
+}
+
+.bi-plus-circle-fill:hover {
+    color: aquamarine;
+}
+
+.nav-link {
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+}
+
+#main {
+    height: 91vh;
+}
+
+#clientes {
+    min-height: 91vh;
+    background-image:url("images/bg.jpg");
+}
+
+#videoJuegos {
+    min-height: 91vh;
+    background-image:url("images/bg3.jpg");
+    background-size: 100%;
+}
+
+#comprar {
+    min-height: 91vh;
+    background-image:url("images/bg2.jpg");
+    background-size: cover;
+}
+
+#fidelizacion {
+    min-height: 91vh;
+    background-image:url("images/bg3.jpg");
+    background-size: cover;
+}
+
+#boughtTicket {
+    position: absolute;
+}
